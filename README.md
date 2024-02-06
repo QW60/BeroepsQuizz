@@ -8,7 +8,7 @@
 #### 👏 Authors
 
 [@qw60](https://www.github.com/qw60)
-[@qw60](https://www.github.com/qw60)
+[@WesVeld](https://www.github.com/WesVeld)
 [@qw60](https://www.github.com/qw60)
 
 

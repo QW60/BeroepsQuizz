@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, html {
+    overflow-x: hidden;
+}
+
+body {
+    background: white;
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+    background: rgb(77,142,142);
+    background: linear-gradient(90deg, rgba(77,142,142,1) 0%, rgba(123,178,122,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+header img {
+    width: 35px;
+    filter: invert(1);
+    transition: all 0.25s ease-in-out;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header img:hover {
+    filter: invert(0.8)
+}
+
+.menu {
+    height: 100vh;
+    width: 725px;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    background: #7bb27a;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transform:translateX(730px);
+    transition: all 0.5s ease-in-out;
+}

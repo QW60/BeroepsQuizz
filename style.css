@@ -95,3 +95,41 @@ header img:hover {
     width: 100%;
 }
 
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 2000px;
+    margin-top: 25px;
+}
+
+.bnr {
+    margin: 20px;
+    height: 325px;
+    min-width: 1600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner1 {
+    background: url(./img/foodbg2.webp);
+    transform: translateX(-50px);
+    height: 280px;
+}
+
+.banner2 {
+    background: url(./img/6005967.jpg);
+    background-size: cover;
+    font-size: 50px;
+}
+
+.banner3 {
+    background: url(./img/hamburgerbg.avif);
+    transform: translateX(50px);
+    height: 280px;
+}

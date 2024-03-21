@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./scripts/menu.js"></script>
-    <script src="./scripts/banner.js"></script>
+    <script src="./scripts/menu.js" defer></script>
+    <script src="./scripts/navi.js" defer></script>
     <title>OUI QUZIUY</title>
 </head> 
 <body>
@@ -17,10 +17,10 @@
     <div class="menu" id="theMenu">
         <div class="menu-content">
             <img onclick="closeMenu()" src="./img/close.svg">
-            <a href="#">Home</a>
-            <a href="#">Food around world quiz</a>
-            <a href="#">Guess the wrong food quiz</a>
-            <a href="#">Pizza Quiz</a>
+            <a href="./">Home</a>
+            <a href="./quiz/foodaroundtheworld">Food around world quiz</a>
+            <a href="./quiz/guessthewrongfood">Guess the wrong food quiz</a>
+            <a href="./quiz/pizza">Pizza Quiz</a>
         </div>
     </div>
     
@@ -39,15 +39,15 @@
 
     <div class="content">
         <h1>All Quizzes</h1>
-        <div class="quiz1 quizdivtje">
+        <div onclick="goto1()" class="quiz1 quizdivtje">
             <h1>Food around the world</h1>
             <h3>15 Questions</h3>
         </div>
-        <div class="quiz2 quizdivtje">
+        <div onclick="goto2()" class="quiz2 quizdivtje">
             <h1>Guess the wrong food</h1>
             <h3>15 Questions</h3>
         </div>
-        <div class="quiz3 quizdivtje">
+        <div onclick="goto3()" class="quiz3 quizdivtje">
             <h1>Pizza Quiz</h1>
             <h3>15 Questions</h3>
         </div>

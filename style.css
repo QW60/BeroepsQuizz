@@ -49,7 +49,7 @@ header img:hover {
     background: #7bb27a;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     transform:translateX(730px);
-    transition: all 0.25s ease-in-out;
+    transition: all 1s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;

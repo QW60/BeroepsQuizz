@@ -137,6 +137,7 @@ header img:hover {
 .content {
     margin: 50px auto;
     width: 70%;
+    color: rgb(83, 83, 83);
 }
 
 .quizdivtje {
@@ -151,6 +152,7 @@ header img:hover {
     border-radius: 20px;
     padding: 50px;
     transition: all 0.25s ease-in-out;
+    color: rgb(237, 237, 237);
 }
 
 .quiz1 {

@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     padding: 20px;
-    color: white;
+    color: white; 
     justify-content: space-around;
     background: rgb(77,142,142);
     background: linear-gradient(90deg, rgba(77,142,142,1) 0%, rgba(123,178,122,1) 100%);
@@ -79,7 +79,7 @@ header img:hover {
     filter: invert(1);
 }
 
- /*  footer css*/
+
  footer {
     background-color: #282626;
     color: #fff;

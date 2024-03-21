@@ -47,46 +47,20 @@ header img:hover {
     background: #7bb27a;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     transform:translateX(730px);
-    transition: all 0.25s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 
-.menu-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-content a {
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-    margin: 10px;
-    transition: all 0.25s ease-in-out;
-}
-
-.menu-content a:hover {
-    color: #eeb5b5;
-}
-
-.menu-content img {
-    width: 35px;
-    margin-bottom: 100px;
-    filter: invert(1);
-}
 
 
  footer {
-    background-color: #282626;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
+            background-color: #282626;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        

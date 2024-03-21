@@ -2,7 +2,7 @@
 var questions = [
     {
         type: "closed",
-        question: "Question 1 (Closed)",
+        question: "Dikste docent van GLR (Closed)",
         options: ["Petra", "Gert", "Hilda", "Arthur"],
         name: "q1",
         answer: "Petra" // Add the correct answer here

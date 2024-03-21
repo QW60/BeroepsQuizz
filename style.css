@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-*, html {
+*,
+html {
     overflow-x: hidden;
 }
 
@@ -16,10 +17,10 @@ body {
 header {
     display: flex;
     padding: 20px;
-    color: white; 
+    color: white;
     justify-content: space-around;
-    background: rgb(77,142,142);
-    background: linear-gradient(90deg, rgba(77,142,142,1) 0%, rgba(123,178,122,1) 100%);
+    background: rgb(77, 142, 142);
+    background: linear-gradient(90deg, rgba(77, 142, 142, 1) 0%, rgba(123, 178, 122, 1) 100%);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
@@ -46,7 +47,7 @@ header img:hover {
     right: 0;
     background: #7bb27a;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    transform:translateX(730px);
+    transform: translateX(730px);
     transition: all 0.25s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -84,7 +85,7 @@ header img:hover {
 }
 
 
- footer {
+footer {
     background-color: #282626;
     color: #fff;
     padding: 20px 0;
@@ -95,3 +96,51 @@ header img:hover {
     width: 100%;
 }
 
+.title {
+    margin-left: 250px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    width: 75%;
+}
+
+.button1 {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border-style: none;
+    background: rgb(106, 182, 106);
+    background: linear-gradient(90deg, rgb(66, 225, 66) 25%, rgb(183, 255, 0) 100%);
+}
+
+.button2 {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border-style: none;
+    background: rgb(182, 106, 166);
+    background: linear-gradient(90deg, rgb(234, 81, 201) 49%, rgb(255, 0, 170) 100%);
+}
+
+.button3 {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border-style: none;
+    background: rgb(198, 197, 58);
+    background: linear-gradient(90deg, rgb(43, 63, 146) 49%, rgb(0, 140, 255) 100%);
+}

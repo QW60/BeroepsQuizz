@@ -79,6 +79,10 @@ header img:hover {
     filter: invert(1);
 }
 
+.menu-content img:hover {
+    filter: invert(0.8);
+}
+
 
  footer {
     background-color: #282626;

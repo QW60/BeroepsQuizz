@@ -3,7 +3,7 @@ function goto1() {
 }
 
 function goto2() {
-    window.location.href = "./quiz/guessthewrongfood";
+    window.location.href = "./quiz2/guessthewrongfood";
 }
 
 function goto3() {

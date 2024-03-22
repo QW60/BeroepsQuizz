@@ -1,103 +1,103 @@
 var questions = [
     {
         type: "closed",
-        question: "What country is pizza from?",
-        options: ["France", "USA", "Turkey", "Italy"],
+        question: "Which of the following is not a type of pasta?",
+        options: ["Spaghetti", "Macaroni", "Croissant", "Linguine"],
         name: "q1",
-        answer: "Italy"
+        answer: "Croissant"
     },
         {
         type: "closed",
-        question: "What country invented the croissant?",
-        options: ["Turkey", "France", "Spain", "Switzerland"],
+        question: "Which of the following is not a type of cheese?",
+        options: ["Cheddar", "Mozzarella", "Parmesan", "Pepperoni"],
         name: "q2",
-        answer: "Turkey" // Add the correct answer here
+        answer: "Pepperoni" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "What food is the netherlands known for?",
-        options: ["Chicken", "Rice", "Cheese", "Apples"],
+        question: "Which of the following is not a type of fruit?",
+        options: ["Apple", "Banana", "Cauliflower", "Orange"],
         name: "q3",
-        answer: "Cheese" // Add the correct answer here
+        answer: "Cauliflower" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "What food do americans like most?",
-        options: ["Salad", "Hamburger", "Sushi", "Mac and Cheese"],
+        question: "Which of the following is not a type of sandwich?",
+        options: ["Club sandwich", "Panini", "Sushi", "Reuben"],
         name: "q4",
-        answer: "Hamburger" // Add the correct answer here
+        answer: "Sushi" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "What is the national dish of China?",
-        options: ["Peking duck", "Bami Bangwang", "Riceballs", "Bat soup"],
+        question: "Which of the following is not a type of soup?",
+        options: ["Minestrone", "Gazpacho", "Lasagna", "Tomato"],
         name: "q5",
-        answer: "Peking duck" // Add the correct answer here
+        answer: "Lasagna" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "What is the national dish of India?",
-        options: ["Biryani", "Naan", "Curry Rice", "Khichdi"],
+        question: "Which of the following is not a type of cake?",
+        options: ["Red Velvet", "Carrot", "Brownie", "Angel Food"],
         name: "q6",
-        answer: "Khichdi" // Add the correct answer here
+        answer: "Brownie" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "What food is the UK known for?",
-        options: ["Kabab", "Fish and Chips", "Hamburgers", "Pizza Hawaii"],
+        question: "Which of the following is not a type of tea?",
+        options: ["Chamomile", "Earl Grey", "Oolong", "Cappuccino"],
         name: "q7",
-        answer: "Fish and Chips" // Add the correct answer here
+        answer: "Cappuccino" // Add the correct answer here
     },
         {
         type: "closed",
-        question: "Which food is not from The Netherlands?",
-        options: ["Andijvie", "Broodje Hagelslag", "Haring", "Doner Kebab"],
+        question: "Which of the following is not a type of potato dish?",
+        options: ["French Fries", "Hash Browns", "Mashed Potatoes", "Tiramisu"],
         name: "q8",
-        answer: "Doner Kebab" // Add the correct answer here
+        answer: "Tiramisu" // Add the correct answer here
     },
     {
         type: "closed",
-        question: "What food is not from the ocean?",
-        options: ["Fish", "Seaweat", "Squid", "Chicken Nuggets"],
+        question: "Which of the following is not a type of sushi?",
+        options: ["Nigiri", "Sashimi", "California Roll", "Tempura"],
         name: "q9",
-        answer: "Chicken Nuggets" // Add the correct answer here
+        answer: "Tempura" // Add the correct answer here
     },
     {
         type: "closed",
-        question: "What food is from South Africa?",
-        options: ["Fufu", "Tostadas", "Bobotie", "Nasi Goreng"],
+        question: "Which of the following is not a type of salad?",
+        options: ["Caesar Salad", "Caprese Salad", "Pancake Salad", "Greek Salad"],
         name: "q10",
-        answer: "Bobotie" // Add the correct answer here
+        answer: "Pancake Salad" // Add the correct answer here
     },
     {
         type: "open",
-        question: "What is the name of the italian dish with pasta and tomato sauce?",
+        question: "What popular Mexican dish consists of a flour tortilla wrapped around various fillings such as beans, rice, meat, and vegetables?",
         name: "q11",
-        answer: "spaghetti" // Add the expected answer here
+        answer: "Burrito" // Add the expected answer here
     },
         {
         type: "open",
-        question: "Which turkish dish is most popular in germany?",
+        question: "What creamy spread, made from ground peanuts, is commonly used in sandwiches, baking, and as a topping for fruits?",
         name: "q12",
-        answer: "doner kebab" // Add the expected answer here
+        answer: "Peanut Butter" // Add the expected answer here
     },
     {
         type: "open",
-        question: "What does the Teyl Inn serve?",
+        question: "Which cut of beef, known for its tenderness and flavor, comes from the upper portion of the cow, typically used in steaks and roasts?",
         name: "q13",
-        answer: "sushi" // Add the expected answer here
+        answer: "Sirloin" // Add the expected answer here
     },
     {
         type: "open",
-        question: "What is the most worldwide fastfood chain?",
+        question: "What dish, popular in many European and Asian cuisines, involves stuffing cabbage leaves with a filling, often a mixture of ground meat, rice, and spices?",
         name: "q14",
-        answer: "mcdonalds" // Add the expected answer here
+        answer: "Cabbage Roll" // Add the expected answer here
     },
     {
         type: "open",
-        question: "Which continent do bananas come from?",
+        question: "What side dish, commonly served at picnics and barbecues, consists of boiled potatoes mixed with mayonnaise, mustard, and various other ingredients such as onions, celery, and pickles?",
         name: "q15",
-        answer: "asia" // Add the expected answer here
+        answer: "Potato Salad" // Add the expected answer here
     },
 ];
 

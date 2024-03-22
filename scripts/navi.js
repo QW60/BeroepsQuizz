@@ -3,9 +3,9 @@ function goto1() {
 }
 
 function goto2() {
-    window.location.href = "./quiz2/guessthewrongfood";
+    window.location.href = "./quiz/guessthewrongfood";
 }
 
 function goto3() {
-    window.location.href = "./quiz3/pizzaquiz";
+    window.location.href = "./quiz/pizzaquiz";
 }

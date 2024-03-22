@@ -13,6 +13,11 @@ body {
     font-family: "Jost", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 header {
     display: flex;
     padding: 20px;

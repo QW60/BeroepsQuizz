@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts/menu.js" defer></script>
+    <script src="./scripts/navi.js" defer></script>
+    <title>OUI QUZIUY</title>
     <link rel="icon" href="img/icon.png" type="image/x-icon">
 </head>
 
 <body>
+    <div class="menu" id="theMenu">
+        <div class="menu-content">
+            <img onclick="closeMenu()" src="./img/close.svg">
+            <a href="./">Home</a>
+            <a href="./quiz/foodaroundtheworld">Food around world quiz</a>
+            <a href="./quiz/guessthewrongfood">Guess the wrong food quiz</a>
+            <a href="./quiz/pizzaquiz">Pizza Quiz</a>
+            <a href="./about.html">About this site</a>
+        </div>
+    </div>
+
     <header>
-        <p alt="Logo">OUI QUZIUY</p>
-        <p>About</p>
+        <a href="./"><p>OUI QUZIUY</p></a>
+        <img onclick="openMenu()" src="./img/menu.svg">
     </header>
     <div class="content">
         <h1>Welcome to the About page!</h1>

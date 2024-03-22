@@ -7,5 +7,5 @@ function goto2() {
 }
 
 function goto3() {
-    window.location.href = "./quiz/pizza";
+    window.location.href = "./quiz3/pizzaquiz";
 }

@@ -3,19 +3,44 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
+header p {
+    color: white;
+}
+
+.quizheader {
+    margin: 20px auto;
+    width: 65%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 15px;
+    background: url(../../img/qh.png);
+    background-size: cover;
+}
+
+label {
+    padding: 10px;
+    background-color: wheat;
+}
+
+.quizheader h2 {
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
 .quizdivtje {
-    background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     width: 80%;
     max-width: 600px;
+    margin: 35px auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h2 {
@@ -47,4 +72,101 @@ p {
 
 p.incorrect {
     color: red;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    color: white; 
+    justify-content: space-around;
+    background: rgb(77,142,142);
+    background: linear-gradient(90deg, rgba(77,142,142,1) 0%, rgba(123,178,122,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+header img {
+    width: 35px;
+    filter: invert(1);
+    transition: all 0.25s ease-in-out;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header img:hover {
+    filter: invert(0.8)
+}
+
+.menu {
+    height: 100vh;
+    width: 725px;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    background: #7bb27a;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transform:translateX(730px);
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+.menu-content a:hover {
+    color: #eeb5b5;
+}
+
+.menu-content img {
+    width: 35px;
+    margin-bottom: 100px;
+    filter: invert(1);
+}
+
+.menu-content img:hover {
+    filter: invert(0.8);
+}
+
+.quiz1 button {
+    height: 155px;
+    width: 275px;
+    margin: 10px;
+
+}
+
+.pastel-red {
+    background-color: #ff7676;
+}
+
+.pastel-blue {
+    background-color: #7474d3;
+}
+
+.pastel-yellow {
+    background-color: #dad54c
+}
+
+.pastel-green {
+    background-color: #7bb27a;
+}
+
+.quiz1 button:hover {
+    filter: brightness(0.8)
 }
